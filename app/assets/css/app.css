@@ -1,0 +1,298 @@
+:root {
+  --cat-0   : #FF8B8B;
+  --cat-1   : #FFAF8B;
+  --cat-2   : #FFCD8B;
+  --cat-3   : #FFEC8B;
+  --cat-4   : #FFFF8B;
+  --cat-5   : #EDFF8B;
+  --cat-6   : #DDFF8B;
+  --cat-7   : #BDFF8B;
+  --cat-8   : #93FF8B;
+  --cat-9   : #8BFFB9;
+  --cat-10  : #8BFFC1;
+  --cat-11  : #8BEBFF;
+  --cat-12  : #8BD4FF;
+  --cat-13  : #8BBDFF;
+  --cat-14  : #8BA2FF;
+  --page    : #006FFF;
+
+  --bg-fondo    :   #F9F9F9;
+  --bg-items    :   #FFAA00;
+}
+
+body {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.w-percentage {
+  width: 117%;
+}
+
+.bg-items {
+  background: var(--bg-items);
+}
+
+.bg-gray-special {
+  background: var(--bg-fondo);
+}
+
+.item_categorias {
+  width: 50%;
+  padding-top: 50%;
+}
+
+.main-color-page {
+  background: var(--page);
+}
+
+.text-color-page {
+  color: var(--page);
+}
+
+.title {
+  font-size: calc(1em + 1.2vw);
+  line-height: 1em;
+}
+
+.justify-normal {
+  justify-content: normal;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #006FFF 0%, #8BEBFF 100%);
+}
+
+.landing_background {
+  background-image: url("../img/fondo.png");
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.arrow_icon {
+  background-image: url("../img/arrow.svg");
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.arrow_icon_search {
+  background-image: url("../img/arrow.svg");
+  background-position: 95%;
+  background-size: 4%;
+  background-repeat: no-repeat;
+}
+
+.apps_image {
+  background-image: url("../img/apps.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.provider {
+  background-image: url("../img/distribuidor.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arrow_down {
+  background-image: url("../img/arrow_down.svg");
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+
+.credit_card {
+  background: url('../img/credit_card.svg');
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-size: 120% 150%;
+}
+
+.six_pack {
+  background-image: url("../img/product.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box_image {
+  background-image: url("../img/box.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pepsi {
+  background-image: url("../img/pepsi.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.unilever {
+  background-image: url("../img/unilever.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.coca {
+  background-image: url("../img/cocacola.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.lala {
+  background-image: url("../img/lala.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.p_g {
+  background-image: url("../img/pyg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.bimbo {
+  background-image: url("../img/bimbo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.meat {
+  background-image: url("../img/meat.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.claro {
+  background-image: url("../img/claro.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.comercio {
+  background-image: url("../img/comercio.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.proveedor {
+  background-image: url("../img/proveedor.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.apps_image_left {
+  background-image: url("../img/apps.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.qiubo {
+  background-image: url("../img/qiubo.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pagalo {
+  background-image: url("../img/pagalo.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.visa {
+  background-image: url("../img/visanet.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.bam {
+  background-image: url("../img/bam.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@media only screen and (max-width: 640px) {
+  .justify-icons {
+    justify-content: space-between;
+  }
+
+  .item_categorias {
+    width: 75%;
+    padding-top: 75%;
+  }
+
+  .alineacion {
+    align-items: center !important;
+  }
+
+  .provider {
+    background-image: url("../img/distribuidor.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .credit_card {
+    background: url('../img/credit_card.svg');
+    background-position: 40px 0px;
+    background-repeat: no-repeat;
+    background-size: 75%;
+  }
+
+  .apps_image_left {
+    background-image: url("../img/apps.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  .bam {
+    background-image: url("../img/bam.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  .pagalo {
+    background-image: url("../img/pagalo.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1600px) {
+  .provider {
+    background-image: url("../img/distribuidor.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .alineacion {
+    align-items: center !important;
+  }
+}

@@ -1,0 +1,65 @@
+<!--Navigation-->
+
+<nav id="header" class="fixed w-full z-20 inset-x-0 top-0 text-white">
+  <div id="navigation" class="w-full mx-auto flex flex-wrap items-center justify-between mt-0 2xl:py-8 lg:py-4">
+    
+    <!--Logo de Empresa y Descargas Moviles-->
+    <div class="flex items-center justify-icons w-full py-4 xl:py-0 px-8 xl:w-1/2 xl:pl-32">
+      <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl cursor-default" href="#/inicio">
+        <img src="./assets/img/logo.png" class="h-14 xl:mx-3 inline cursor-pointer">
+      </a>
+      <a class="toggleColour hidden xl:block text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl cursor-default" href="#/inicio">
+        <img src="./assets/img/apple.png" class="h-10 mx-3 inline cursor-pointer">
+      </a>
+      <a class="toggleColour hidden xl:block text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl cursor-default" href="#/inicio">
+        <img src="./assets/img/google.png" class="h-10 mx-3 inline cursor-pointer">
+      </a>
+
+      <!--Menu Movil-->
+      <div class="block lg:hidden">
+        <button id="nav-toggle" class="flex items-center p-1 text-color-page hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!--Links Menu Principal-->
+    <div id="nav-content" class="w-full xl:flex lg:items-center lg:w-1/2 hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-2 lg:p-0 z-20">
+      <ul class="flex flex-col w-full items-end xl:flex-row xl:flex-grow justify-between xl:items-center 2xl:px-48 xl:px-12 m-0">
+        <li class="mr-3 bg-gray-special xl:bg-transparent w-full">
+          <a class="inline-block py-2 px-4 text-black font-bold no-underline text-center w-full" href="#/shops">
+            Comercios
+          </a>
+        </li>
+
+        <hr>
+
+        <li class="mr-3 bg-gray-special xl:bg-transparent w-full">
+          <a class="inline-block text-black no-underline font-bold py-2 px-4 text-center w-full" href="#/providers">
+            Proveedores
+          </a>
+        </li>
+
+        <hr>
+
+        <li class="mr-3 bg-gray-special xl:bg-transparent w-full">
+          <a class="inline-block text-black no-underline font-bold py-2 px-4 text-center w-full" href="#/coverage">
+            Cobertura
+          </a>
+        </li>
+
+        <hr>
+
+        <li class="2xl:ml-24 -ml-6 hidden">
+          <button id="navAction" class="lg:mx-32 bg-white text-blue-500 font-bold mt-4 lg:mt-0 py-2 px-4 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Ingresar
+          </button>
+        </li>        
+      </ul>
+    </div>
+
+  <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+</nav>
