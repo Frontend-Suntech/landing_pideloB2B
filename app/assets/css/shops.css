@@ -1,0 +1,123 @@
+.gradient {
+    background: linear-gradient(90deg, #006FFF 0%, #8BEBFF 100%);
+}
+
+.moto {
+    background-image: url("../img/moto.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.star {
+    background-image: url("../img/estrella.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.billete {
+    background-image: url("../img/billete.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card {
+    background-image: url("../img//card_red.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.calendario {
+    background-image: url("../img//calendario.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tabla {
+    background-image: url("../img//tabla.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sucursales {
+    background-image: url("../img/sucursales.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.integraciones {
+    background-image: url("../img/integra.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.circle {
+    background-image: url("../img/circle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.arrow_sides {
+    background-image: url("../img/flecha_planes.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.billete_final {
+    background-image: url("../img/billete_final.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text-page {
+    color: var(--text-page);
+}
+
+.perfil {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/perfil.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.reloj {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/reloj.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.shadow_1 {
+    box-shadow: 10px 0px 20px #0000001A;
+}
+
+.shadow_2 {
+    box-shadow: -10px 3px 20px #0000001A;
+}
+
+.bg-greens {
+    background: var(--bg-greens );
+}
+
+@media only screen and (max-width: 640px) {
+    .circle {
+        background-image: url("../img/circle.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150%;
+    }
+}

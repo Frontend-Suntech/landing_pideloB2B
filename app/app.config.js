@@ -9,10 +9,10 @@ angular.
           template: '<init-page></init-page>'
         }).
         when('/providers', {
-          template: '<navigation-menu></navigation-menu>'
+          template: '<providers-page></providers-page>'
         }).
         when('/shops', {
-          template: '<navigation-menu></navigation-menu>'
+          template: '<shops-page></shops-page>'
         }).
         otherwise('/inicio');
     }

@@ -55,13 +55,11 @@ angular.
 
       const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
 
-      if(vw < 400){
+      if(vw < 500){
         $scope.cantidad = 9;
       }else{
         $scope.cantidad = 15;
       }
-
-      console.log(vw);
 
     }
   });

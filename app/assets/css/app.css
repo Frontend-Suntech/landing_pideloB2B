@@ -18,6 +18,9 @@
 
   --bg-fondo    :   #F9F9F9;
   --bg-items    :   #FFAA00;
+  --bg-greens   :   #2BCB2B;
+
+  --text-page   :   #006FFF;
 }
 
 body {
@@ -232,6 +235,13 @@ body {
   background-size: auto;
 }
 
+.pro {
+  background-image: url("../img/pro.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 @media only screen and (max-width: 640px) {
   .justify-icons {
     justify-content: space-between;
@@ -280,6 +290,13 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
   }
+
+  .pro {
+    background-image: url("../img/pro.png");
+    background-position: center 435px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  } 
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1600px) {
