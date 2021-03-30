@@ -21,6 +21,8 @@
   --bg-greens   :   #2BCB2B;
 
   --text-page   :   #006FFF;
+  --text-gree   :   #2BCB2B;
+  --text-pro    :   #7063EF;
 }
 
 body {
@@ -297,6 +299,10 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   } 
+
+  .margin-neg {
+    margin-bottom: -22px !important;
+  }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1600px) {

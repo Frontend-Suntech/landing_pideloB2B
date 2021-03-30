@@ -128,14 +128,14 @@
         <!--Section Content-->
         <div class="flex flex-row items-center justify-between">
     
-        <img class="hidden xl:block" src="./assets/img/flecha.png">
+        <img class="w-1/4 hidden xl:block" src="./assets/img/flecha.png">
         
-        <div class="flex flex-col w-full xl:flex-1">
+        <div class="flex flex-col xl:flex-1">
             <div class="text-2xl text-green-500 text-center font-bold">¡Pide hoy, Págalo después!</div>
             <div class="text-base xl:text-xl text-center my-6 text-black">Con Pídelo tu escoges tu forma de pago.</div>
             <div class="flex flex-col xl:flex-row items-center xl:justify-around xl:mt-20 text-base xl:text-lg">
                 
-                <div class="flex flex-row w-full">
+                <div class="flex flex-row w-full xl:justify-around">
                     <div class="flex w-1/2 flex-col items-center text-center xl:w-60">
                         <div class="billete w-24 h-24"></div>
                         <p class="mt-4">Paga en efectivo contra entrega</p>
@@ -143,11 +143,16 @@
     
                     <div class="flex w-1/2 flex-col items-center text-center xl:w-60">
                         <div class="card w-24 h-24"></div>
-                        <p class="mt-4">Paga en efectivo contra entrega</p>
+                        <p class="mt-4">Paga en tarjeta de crédito o debito</p>
+                    </div>
+
+                    <div class="hidden xl:flex flex w-1/2 flex-col items-center text-center xl:w-60 mt-4 xl:mt-0">
+                        <div class="calendario w-24 h-24"></div>
+                        <p class="mt-4">Paga después, aplicando a un crédito de 30 días</p>
                     </div>
                 </div>
 
-                <div class="flex w-1/2 flex-col items-center text-center xl:w-60 mt-4 xl:mt-0">
+                <div class="flex xl:hidden w-1/2 flex-col items-center text-center xl:w-60 mt-4 xl:mt-0">
                     <div class="calendario w-24 h-24"></div>
                     <p class="mt-4">Paga en efectivo contra entrega</p>
                 </div>
@@ -156,7 +161,7 @@
     
         </div>
 
-        <img class="hidden xl:block" src="./assets/img/flecha_derecha.png">
+        <img class="w-1/4 hidden xl:block" src="./assets/img/flecha_derecha.png">
     
         </div>
     </div>
@@ -223,7 +228,7 @@
         <div class="flex flex-col xl:flex-row h-auto mt-6">
     
             <!--Left Col-->
-            <div class="flex flex-col w-full xl:w-1/2 items-start text-black items-start justify-center xl:pl-72 px-4 xl:pr-6 my-6"> 
+            <div class="flex flex-col w-full xl:w-1/2 items-start text-black items-start justify-center xl:pl-48 2xl:pl-72 px-4 xl:pr-6 my-6"> 
                 
                 <div class="block bg-gray-100 shadow_1 w-full rounded-3xl p-12 relative">
                     <div class="arrow_sides h-24 w-24 absolute -top-12 -left-6 "></div>
@@ -243,7 +248,7 @@
             </div>
             
             <!--Right Col-->
-            <div class="flex flex-col w-full xl:w-1/2 items-start text-white items-start justify-center xl:pr-72 px-4 xl:pl-6 my-6">
+            <div class="flex flex-col w-full xl:w-1/2 items-start text-white items-start justify-center xl:pr-48 2xl:pr-72 px-4 xl:pl-6 my-6">
                 <div class="block main-color-page shadow_2 w-full rounded-3xl p-12">
                 <div class="text-3xl font-bold py-6 text-center">PRO</div>
                 <div class="py-2">- Pedidos ilimitados a proveedores</div>
@@ -252,7 +257,7 @@
                 <div class="py-2">- Versión móvil y desktop</div>
                 <div>
                     <div class="py-2">- Realiza reordenes rápidas</div>
-                    <div class="py-2">-  tu inventario</div>
+                    <div class="py-2">- Controla tu inventario</div>
                     <div class="py-2">- Integra Pídelo a sistemas administrativos</div>
                 </div>
                 <div class="text-3xl font-bold text-center mt-12">$15/mes</div>
@@ -273,7 +278,7 @@
         <div class="flex flex-row flex-none items-center rounded-3xl justify-between w-full xl:w-2/6 px-8 py-6 bg-greens">
             <div class="w-1/4 billete_final h-28 w-28 z-20"></div>
 
-            <div class="w-3/4 px-6 xl:ml-12 text-base xl:text-xl">
+            <div class="w-3/4 px-6 2xl:ml-12 text-base xl:text-xl">
                 ¡Invita a proveedores que no estén en Pídelo y recibe dinero a cambio!
             </div>
         </div>

@@ -1,0 +1,67 @@
+.yellow-text {
+    color: var(--bg-items);
+}
+
+.purple-bg {
+    background: var(--text-pro);
+}
+
+.factura {
+    background-image: url("../img/factura.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rutas {
+    background-image: url("../img/rutas.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.datos {
+    background-image: url("../img/data.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.porcentaje {
+    background-image: url("../img/porcentaje.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ubicacion {
+    background-image: url("../img/punto.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.green-text {
+    color: var(--text-gree);
+}
+
+.comercio-2 {
+    background-image: url("../img/comercio-2.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dolar {
+    background-image: url("../img/dolar.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.discount_promo {
+    background-image: url("../img/discount.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
