@@ -8,11 +8,14 @@ angular.
         when('/inicio', {
           template: '<init-page></init-page>'
         }).
-        when('/providers', {
+        when('/comercios', {
+          template: '<shops-page></shops-page>'
+        }).
+        when('/proveedores', {
           template: '<providers-page></providers-page>'
         }).
-        when('/shops', {
-          template: '<shops-page></shops-page>'
+        when('/cobertura', {
+          template: '<coverage-page></coverage-page>'
         }).
         otherwise('/inicio');
     }

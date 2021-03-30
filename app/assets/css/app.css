@@ -29,6 +29,8 @@ body {
   font-family: 'Nunito', sans-serif !important;
 }
 
+/* PAGINA INICIAL */
+
 .w-percentage {
   width: 117%;
 }
@@ -244,6 +246,239 @@ body {
   background-size: contain;
 }
 
+/* COMERCIOS */
+
+.gradient {
+  background: linear-gradient(90deg, #006FFF 0%, #8BEBFF 100%);
+}
+
+.moto {
+  background-image: url("../img/moto.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.star {
+  background-image: url("../img/estrella.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.billete {
+  background-image: url("../img/billete.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card {
+  background-image: url("../img//card_red.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.calendario {
+  background-image: url("../img//calendario.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tabla {
+  background-image: url("../img//tabla.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sucursales {
+  background-image: url("../img/sucursales.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.integraciones {
+  background-image: url("../img/integra.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.circle {
+  background-image: url("../img/circle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.arrow_sides {
+  background-image: url("../img/flecha_planes.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.billete_final {
+  background-image: url("../img/billete_final.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text-page {
+  color: var(--text-page);
+}
+
+.perfil {
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/perfil.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.reloj {
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/reloj.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shadow_1 {
+  box-shadow: 10px 0px 20px #0000001A;
+}
+
+.shadow_2 {
+  box-shadow: -10px 3px 20px #0000001A;
+}
+
+.bg-greens {
+  background: var(--bg-greens );
+}
+
+
+/* PROVEEDORES */
+
+.yellow-text {
+  color: var(--bg-items);
+}
+
+.purple-bg {
+  background: var(--text-pro);
+}
+
+.factura {
+  background-image: url("../img/factura.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rutas {
+  background-image: url("../img/rutas.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.datos {
+  background-image: url("../img/data.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.porcentaje {
+  background-image: url("../img/porcentaje.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ubicacion {
+  background-image: url("../img/punto.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.green-text {
+  color: var(--text-gree);
+}
+
+.comercio-2 {
+  background-image: url("../img/comercio-2.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dolar {
+  background-image: url("../img/dolar.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.discount_promo {
+  background-image: url("../img/discount.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* COBERTURA */
+
+.blue-label {
+  background-image: url("../img/blue.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+input {
+  height: 45px;
+  border-radius: 10px;
+  padding: 10px !important;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  color: white;
+}
+
+.arrow-up-1 {
+  background-image: url("../img/flecha-arriba.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  top: -110px;
+  left: -180px;
+}
+
+.arrow-up-2 {
+  background-image: url("../img/flecha-arriba.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+  bottom: -80px;
+  right: -145px;
+}
+
+/* MEDIA QUERIES */
+
 @media only screen and (max-width: 640px) {
   .justify-icons {
     justify-content: space-between;
@@ -303,6 +538,13 @@ body {
   .margin-neg {
     margin-bottom: -22px !important;
   }
+
+  .circle {
+    background-image: url("../img/circle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1600px) {

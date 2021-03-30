@@ -6,5 +6,6 @@ angular.module('landingApp', [
   'navigationMenu',
   'providersPage',
   'shopsPage',
-  'footerPage'
+  'footerPage',
+  'coveragePage'
 ]);
